@@ -305,7 +305,7 @@ async def handle_update_igloo_configuration(p, igloo_id: int, igloo_type_id: int
             p.server.cache.delete(f'legacy_igloo.{p.id}')
             p.server.cache.delete(f'igloo_layouts.{p.id}')
 
-            if len(furniture_list) >= 99:
+            if furniture_list is not None and len(furniture_list) >= 99:
                 await p.add_stamp(p.server.stamps[23])
 
 

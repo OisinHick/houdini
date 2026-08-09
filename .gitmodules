@@ -1,0 +1,7 @@
+[submodule "houdini/plugins/permissions"]
+	path = houdini/plugins/permissions
+	url = https://github.com/solero/permissions.git
+[submodule "houdini/plugins/essentials"]
+	path = houdini/plugins/essentials
+	url = https://github.com/solero/essentials.git
+

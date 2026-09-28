@@ -4,4 +4,7 @@
 [submodule "houdini/plugins/essentials"]
 	path = houdini/plugins/essentials
 	url = https://github.com/solero/essentials.git
+[submodule "houdini/plugins/houdini-websockets"]
+	path = houdini/plugins/houdini-websockets
+	url = https://github.com/Lekuruu/houdini-websockets.git
 
